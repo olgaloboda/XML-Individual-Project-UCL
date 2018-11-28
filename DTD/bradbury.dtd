@@ -1,0 +1,163 @@
+<!ELEMENT content (story+, addInfo?)>
+<!ELEMENT story (header, text)>
+<!ATTLIST story type CDATA #REQUIRED
+                    title CDATA #REQUIRED>
+<!-- Each header should consist of at least one 'meta' followed by at least one 'bibl'. -->
+<!ELEMENT header (meta+, bibl+)>
+<!ELEMENT meta (#PCDATA)>
+<!-- In order to allow embedding meta tag's content dynamically, all the attributes are optional, i.e., implied. -->
+<!ATTLIST meta author CDATA #IMPLIED
+                              source CDATA #IMPLIED
+                              lecturer CDATA #IMPLIED
+                              module CDATA #IMPLIED>
+<!ELEMENT bibl (#PCDATA | title | author | date | desc)*>
+<!ELEMENT title (#PCDATA)>
+<!-- Ray Bradbury's collections are heterogeneous, thinking about further markup, title classifies to which aspect of Ray Bradbury's work a particular text relates. -->
+<!ATTLIST title level (a | m | j | s | u) #REQUIRED>
+<!ELEMENT author (persName)>
+<!ELEMENT desc (#PCDATA  | geogName | date)*>
+<!ATTLIST desc of CDATA #IMPLIED>
+
+<!ELEMENT text (p+)>
+<!ELEMENT p (#PCDATA | reference | persName | sp | repetition | date | geogName | onomatopoeia |
+                               metaphor | epithet | anaphora  | enumeration | simile | epiphora | 
+                               zeugma | climax | personification | metonymy | break_in_the_narrative | 
+                               hyperbole | periphrasis | asyndeton  | attachment | emph)*>
+
+<!ELEMENT sp (#PCDATA | reference | enumeration | orgName | break_in_the_narrative | persName | 
+                              repetition | anaphora | address | periphrasis | simile | climax | hyperbole | metaphor | event |
+                              personification | geogName | asyndeton | attachment | emph)*>
+
+<!-- Tropes -->
+<!ELEMENT epithet (#PCDATA)>
+<!-- 
+    As the tags' category is known (in this example, it is trope), the attribute's value is fixed. 
+    Attribute 'category' allows extracting by means of xslt either all tropes or figures of speech without enumerating all possible tropes or figures from the document. 
+    'Device' allows extracting all tropes and figures simultaneously, and, it also shows another way of embedding fixed content. Usually this way is used to provide several predefined options to the content.
+    'Ref' helps to extract xslt content of, for example, 'epithet' with the relation to what epithet refers.
+-->
+<!ATTLIST epithet category CDATA #FIXED "trope"
+                    device (stylistic) #REQUIRED
+                    ref CDATA #REQUIRED>
+<!ELEMENT hyperbole (#PCDATA | reference)*>
+<!ATTLIST hyperbole category CDATA #FIXED "trope"
+                    device (stylistic) #REQUIRED>
+<!ELEMENT metaphor (#PCDATA | date | epithet | personification | zeugma | enumeration | 
+                                          simile | periphrasis | repetition | hyperbole | 
+                                          reference)*>
+<!ATTLIST metaphor category CDATA #FIXED "trope"
+                                       device (stylistic) #REQUIRED>
+<!ELEMENT metonymy (#PCDATA | epithet)*>
+<!ATTLIST metonymy category CDATA #FIXED "trope"
+                    device (stylistic) #REQUIRED
+                    ref CDATA #REQUIRED>
+<!ELEMENT onomatopoeia (#PCDATA)>
+<!ATTLIST onomatopoeia category CDATA #FIXED "trope"
+                    device (stylistic) #REQUIRED>                   
+<!ELEMENT personification (#PCDATA | metonymy | onomatopoeia)*>
+<!ATTLIST personification category CDATA #FIXED "trope"
+                                               device (stylistic) #REQUIRED>
+                          
+<!ELEMENT zeugma (#PCDATA | epithet)*>
+<!ATTLIST zeugma category CDATA #FIXED "trope"
+                                   device (stylistic) #REQUIRED>
+                 
+<!--Figures of speech -->
+<!ELEMENT anaphora (#PCDATA | metaphor | reference | repetition | zeugma | simile | hyperbole | geogName | enumeration)*>
+<!ATTLIST anaphora category CDATA #FIXED "figure_of_speech"
+                                      device (stylistic) #REQUIRED>
+<!ELEMENT asyndeton EMPTY>
+<!ATTLIST asyndeton category CDATA #FIXED "figure_of_speech"
+                    device (stylistic) #REQUIRED>
+<!ELEMENT attachment (#PCDATA)>
+<!ATTLIST attachment category CDATA #FIXED "figure_of_speech"
+                                         device (stylistic) #REQUIRED>
+<!ELEMENT break_in_the_narrative (#PCDATA | reference)*>
+<!ATTLIST break_in_the_narrative category CDATA #FIXED "figure_of_speech"
+                                                              device CDATA #FIXED "stylistic"> 
+<!ELEMENT enumeration (#PCDATA | simile | zeugma)*>
+<!ATTLIST enumeration category CDATA #FIXED "figure_of_speech"
+                                            device (stylistic) #REQUIRED>
+<!ELEMENT epiphora (#PCDATA | reference | parallelism)*>
+<!ATTLIST epiphora category CDATA #FIXED "figure_of_speech"
+                                     device (stylistic) #REQUIRED>                                 
+<!ELEMENT periphrasis (#PCDATA | metonymy)*>
+<!ATTLIST periphrasis category CDATA #FIXED "figure_of_speech"
+                                         device (stylistic) #REQUIRED>
+<!ELEMENT climax (#PCDATA | epithet | reference | onomatopoeia)*>
+<!ATTLIST climax category CDATA #FIXED "figure_of_speech"
+                                device (stylistic) #REQUIRED>
+<!ELEMENT parallelism (#PCDATA)>
+<!ATTLIST parallelism category CDATA #FIXED "figure_of_speech"
+                                         device (stylistic) #REQUIRED>                 
+<!ELEMENT reference (#PCDATA)>
+<!ATTLIST reference type (anaphoric | cataphoric) #REQUIRED
+                                      to CDATA #IMPLIED>
+<!ELEMENT simile (#PCDATA | onomatopoeia)*>
+<!ATTLIST simile category CDATA #FIXED "figure_of_speech"
+                                device (stylistic) #REQUIRED>
+                 
+<!-- Rhetorical device -->
+<!ELEMENT repetition (#PCDATA | reference)*>
+<!ATTLIST repetition device (rhetorical) #REQUIRED>
+
+<!-- Proper nouns on denoting place, event, organisation and date. -->
+<!-- 
+    Even though address can consist of other information apart from house number and street, such as postcode, for example, 
+    the accuracy of this markup analysis wasn't distorted with hypothetical elements which weren't met during markup process. 
+    The same concerns other tags within this category (i.e., proper nouns on denoting place, event, organisation and date) as well.
+-->
+<!ELEMENT address (house_number, street)>
+<!ATTLIST address type CDATA #IMPLIED>
+<!ELEMENT house_number (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+
+<!ELEMENT date (month | year)*>
+<!ATTLIST date type CDATA #IMPLIED>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year category CDATA #IMPLIED>
+
+<!ELEMENT event (#PCDATA)>
+
+<!ELEMENT geogName (region | geogFeat | planet)*>
+<!ATTLIST geogName type CDATA #IMPLIED>
+<!ELEMENT region (#PCDATA)>
+<!ATTLIST region type CDATA #IMPLIED
+                    location CDATA #IMPLIED>
+<!ELEMENT geogFeat (#PCDATA)>
+<!ELEMENT planet (#PCDATA)>
+
+<!ELEMENT orgName (#PCDATA | geogName)*>
+<!ATTLIST orgName type CDATA #IMPLIED>
+
+<!-- TEI tags -->
+<!-- It was important to predefine different options for persName leaving the structure of its content fixed. -->
+<!ELEMENT persName ((persTitle?, forename?, surname) | (persTitle, forename, surname) | (persTitle, forename?, surname) | 
+                                             (persTitle?, forename, surname?))>
+<!-- As persName refers to fictional characters and real people, persName's attribute 'type' enables to separate fictional characters from real people. -->
+<!ATTLIST persName type CDATA #IMPLIED
+                                        who CDATA #REQUIRED>
+<!ELEMENT persTitle (#PCDATA)>
+<!ELEMENT forename (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+
+<!ELEMENT birth (#PCDATA)>
+<!ATTLIST birth of CDATA #REQUIRED>
+<!ELEMENT death (#PCDATA)>
+<!ATTLIST death of CDATA #REQUIRED>
+
+<!ELEMENT emph (#PCDATA | metaphor)*>
+<!ATTLIST emph for CDATA #IMPLIED>
+
+<!-- Additional elements -->
+<!-- Additional information should consist of at least one paragraph and not fixed number of list. 'list' is optional, whereas at least one 'para' is required. -->
+<!ELEMENT addInfo ((para+, list*), (list*, para+))>
+<!-- 
+    This defines the 'type' of addInfo as additional information may relate to different aspects, such as references, biographies, acknowledgements, text analyses, interviews, related articles and so on. 
+    Although this case related to bigraphy only, non-defined attribute is important for flexible markup of other stories in future.
+-->
+<!ATTLIST addInfo type CDATA #IMPLIED
+                                  source CDATA #REQUIRED>
+<!ELEMENT para (#PCDATA | persName | birth | death | bibl)*>
+<!ELEMENT list (bibl+)>

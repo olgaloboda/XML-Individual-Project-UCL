@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Doctype defines relevance to identified dtd structure with 'content' as a root element. -->
+<!DOCTYPE content SYSTEM "../DTD/bradbury.dtd">
+
+<!-- This associates XSLTs with xml. -->
+<?xml-stylesheet type="text/xsl" href="../XSLT/bradburyBiography.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Coloured.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Miscellaneous.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/ReadAll.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../XSLT/Stylistics.xsl"?>
+
+<!-- Content consists of three stories. -->
+<content>
+    
+        <story type="short story" title="The Pedestrian">
+        <!-- 
+            'header includes technical information which is either displayed (bibl) or hidden being empty (meta).
+            'meta' inserts metadata which is a reference to document details. 'bibl' displays story's title, year (if mentioned) and author's name and surname.
+        -->
+        <header>
+            <meta author="Olga Loboda"/>
+            <meta module="INSTG037"/>
+            <meta lecturer="Simon Mahony"/>
+            <meta source="http://mikejmoran.typepad.com/files/pedestrian-by-bradbury-1.pdf"/>
+            <bibl>
+                <title level="a">The Pedestrian</title>
+                <date>
+                    <year>1951</year>
+                </date>
+                <author>
+                    <persName type="author" who="Ray Bradbury">
+                        <forename>Ray</forename>
+                        <surname>Bradbury</surname>
+                    </persName>
+                </author>
+            </bibl>
+        </header>
+        
+        <!-- Text consists of paragraphs with dynamic content in it. The children of the tags related to tropes and figures of speech can't be predefined. -->
+        <text>
+
+            <p>
+                <metaphor category="trope" device="stylistic">To enter out into that silence</metaphor> that was the city at eight o'clock of a 
+                <epithet category="trope" device="stylistic" ref="evening">misty</epithet> evening in
+                <date>
+                    <month>November</month>
+                </date>, to put your feet upon that buckling concrete walk,
+                <metaphor category="trope" device="stylistic">to step over grassy seams and make your way, hands in pockets, through the silences</metaphor>, that was what 
+                <persName type="character" who="Leonard Mead">
+                    <persTitle>Mr.</persTitle>
+                    <forename>Leonard</forename>
+                    <surname>Mead</surname>
+                </persName> most dearly loved to do.
+                <reference type="anaphoric" to="Leonard Mead">He</reference> would stand upon the corner of an intersection and peer down long moonlit avenues of 
+                sidewalk in four directions, deciding which way to go, but it really made no difference; 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> was alone in this world of 
+                <date type="fictional">
+                    <year category="AD">A.D. 2053</year>
+                </date>, or as good as alone, and with a final decision made,
+                <asyndeton device="stylistic" category="figure_of_speech"/>a path selected
+                <reference type="anaphoric" to="Leonard Mead">he</reference> would stride off, sending patterns of frosty air before him 
+                <simile category="figure_of_speech" device="stylistic">like the smoke of a cigar</simile>. 
+            </p>
+
+            <p>Sometimes
+                <reference type="anaphoric" to="Leonard Mead">he</reference> would walk for hours and miles and return only at midnight to his house. And on his way
+                <reference type="anaphoric" to="Leonard Mead">he</reference> would see the cottages and homes with their dark windows, and it was not unequal to 
+                walking through a graveyard where only the faintest glimmers of firefly light appeared in flickers behind the windows. Sudden 
+                <periphrasis category="figure_of_speech" device="stylistic">gray phantoms</periphrasis> seemed to manifest upon inner room walls where a curtain 
+                was still undrawn against the night, or there were whisperings and murmurs where a window in a 
+                <epithet category="trope" device="stylistic" ref="building">tomblike</epithet> building was still open. 
+            </p>
+
+            <p>
+                <persName type="character" who="Leonard Mead">
+                    <persTitle>Mr.</persTitle>
+                    <forename>Leonard</forename>
+                    <surname>Mead</surname>
+                </persName> would 
+                <enumeration category="figure_of_speech" device="stylistic">pause, cock his head, listen, look, and march on</enumeration>, his feet making no noise on the 
+                <epithet category="trope" device="stylistic" ref="walk">lumpy</epithet> walk. For long ago
+                <reference type="anaphoric" to="Leonard Mead">he</reference> had wisely changed to sneakers when strolling at night, because the dogs in intermittent squads 
+                would parallel his journey with barkings if he wore hard heels and lights might click on and faces appear and an entire street be startled by the passing of a 
+                <periphrasis category="figure_of_speech" device="stylistic">lone figure</periphrasis>, himself, in the early 
+                <date>
+                    <month>November</month>
+                </date> evening. 
+            </p>
+
+            <p>On this particular evening 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> began his journey in a westerly direction, toward the hidden sea. There was a good 
+                <metaphor category="trope" device="stylistic">
+                    <epithet category="trope" device="stylistic" ref="frost">crystal</epithet> frost in the air;
+                    <hyperbole device="stylistic" category="trope">
+                        <reference type="anaphoric" to="frost">it</reference> cut the nose and made the lungs blaze</hyperbole> 
+                    <simile category="figure_of_speech" device="stylistic">like a Christmas tree inside</simile>; you could feel the
+                    <epithet device="stylistic" category="trope" ref="light">cold</epithet> light going on and off, all the 
+                    <periphrasis device="stylistic" category="figure_of_speech">branches</periphrasis> filled with invisible snow
+                </metaphor>.
+                <reference type="anaphoric" to="Leonard Mead">He</reference> listened to the faint push of his soft shoes through autumn leaves with satisfaction, and 
+                <onomatopoeia category="trope" device="stylistic">whistled</onomatopoeia> a cold quiet
+                <onomatopoeia category="trope" device="stylistic">whistle</onomatopoeia> between his teeth, occasionally picking up a leaf as
+                <reference type="anaphoric" to="Leonard Mead">he</reference> passed, examining its skeletal pattern in the infrequent lamplights as 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> went on, smelling its rusty smell. 
+            </p>
+
+            <p>
+                <sp>"Hello, in there,"</sp> 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> 
+                <onomatopoeia device="stylistic" category="trope">whispered</onomatopoeia> to every house on every side as 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> moved.
+                <sp>"What's up tonight on 
+                    <enumeration category="figure_of_speech" device="stylistic">Channel 4, Channel 7, Channel 9</enumeration>? Where are the cowboys rushing, and do I see 
+                    <orgName>
+                        <geogName>
+                            <region type="country">the United States</region>
+                        </geogName>Cavalry
+                    </orgName> over the next hill to the rescue?" 
+                </sp>
+            </p>
+
+            <p>The street was 
+                <zeugma category="trope" device="stylistic">silent and long and empty</zeugma>, with only his shadow moving 
+                <simile category="figure_of_speech" device="stylistic">like the shadow of a hawk</simile> in midcountry. If
+                <reference type="anaphoric" to="Leonard Mead">he</reference> closed his eyes and stood very still, 
+                <epithet category="trope" device="stylistic" ref="Leonard Mead">frozen</epithet>, 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> could imagine himself upon the center of a plain, a wintry,
+                <asyndeton device="stylistic" category="figure_of_speech"/> windless
+                <geogName type="desert">
+                    <region type="state">Arizona</region>
+                    <geogFeat>desert</geogFeat>
+                </geogName>with no house in a thousand miles, and only 
+                <periphrasis category="figure_of_speech" device="stylistic">dry river beds</periphrasis>, the streets, for company. 
+            </p>
+
+            <p>
+                <sp>"What is it now?"</sp>
+                <reference type="anaphoric">he</reference> asked the
+                <metonymy device="stylistic" category="trope" ref="people">houses</metonymy>, noticing his wrist watch. 
+                <sp>"Eight-thirty P.M.? Time for a dozen assorted murders? A quiz? A revue? A comedian falling off the stage?"</sp>
+            </p>
+
+            <p>Was that a 
+                <onomatopoeia device="stylistic" category="trope">murmur</onomatopoeia> of laughter from within a moon-white house?
+                <reference type="anaphoric">He</reference> hesitated, but went on when nothing more happened. 
+                <reference type="anaphoric">He</reference> stumbled over a particularly uneven section of sidewalk. The cement was vanishing under flowers and grass.
+                In ten years of walking by night or day, for thousands of miles, 
+                <reference type="anaphoric">he</reference> had never met another person walking, not once in all that time.
+            </p>
+
+            <p>
+                <reference type="anaphoric">He</reference> came to a cloverleaf intersection which 
+                <metaphor category="trope" device="stylistic">stood silent</metaphor> where two main highways crossed the town. During the day it was a 
+                <epithet category="trope" device="stylistic" ref="surge of cars">thunderous </epithet> surge of cars, the gas stations open, a great insect 
+                rustling and a ceaseless jockeying for position 
+                <simile category="figure_of_speech" device="stylistic">as the scarabbeetles</simile>, faint incense puttering from their exhausts, skimmed homeward 
+                to the far directions. But now these highways, too, were
+                <simile category="figure_of_speech" device="stylistic">like streams in a dry season</simile>, 
+                <zeugma category="trope" device="stylistic">all stone and bed and moon radiance</zeugma>. 
+            </p>
+
+            <p>
+                <reference type="anaphoric">He</reference> turned back on a side street, circling around toward his home.
+                <reference type="anaphoric">He</reference> was within a block of his destination when the lone car turned a corner quite suddenly and flashed a fierce 
+                white cone of light upon him. 
+                <reference type="anaphoric">He</reference> stood entranced, 
+                <simile category="figure_of_speech" device="stylistic">not unlike a night moth</simile>, stunned by the illumination, and then drawn toward it. 
+            </p>
+
+            <p>A 
+                <metonymy category="trope" device="stylistic" ref="policeman">
+                    <epithet category="trope" device="stylistic" ref="voice">metallic</epithet> voice 
+                </metonymy> called to him: 
+            </p>
+
+            <p>
+                <sp>"Stand still. Stay where you are! Don't move!"</sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric">He</reference> halted.
+            </p>
+
+            <p>
+                <sp>"Put up your hands!"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<break_in_the_narrative category="figure_of_speech">But-</break_in_the_narrative>"
+                </sp>
+                <reference type="anaphoric">he</reference> said.
+            </p>
+
+            <p>
+                <sp>"Your hands up! Or we'll Shoot!"</sp>
+            </p>
+
+            <p>The police, of course, but what a rare, incredible thing; in a city of three million, there was only one police car left, wasn't that correct? 
+                Ever since a year ago, 
+                <date type="fictional">
+                    <year>2052</year>
+                </date>, the election year, the force had been cut down from three cars to one. Crime was ebbing; there was no need now for the 
+                police, save for this one lone car 
+                <repetition device="rhetorical">wandering and wandering</repetition> the empty streets.
+            </p>
+
+            <p>
+                <sp>"Your name?"</sp> said the police car in a 
+                <epithet device="stylistic" ref="whisper" category="trope">metallic</epithet>
+                <onomatopoeia device="stylistic" category="trope">whisper</onomatopoeia>.
+                <reference type="anaphoric" to="Leonard Mead">He</reference> couldn't see the men in it for the bright light in his eyes.
+            </p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="Leonard Mead">
+                        <forename>Leonard</forename>
+                        <surname>Mead</surname>
+                    </persName>,"
+                </sp>
+                <reference type="anaphoric">he</reference> said.
+            </p>
+            
+            <p>
+                <sp>"Speak up!"</sp>
+            </p>
+            
+            <p>
+                <sp>
+                    "<persName type="character" who="Leonard Mead">
+                        <forename>Leonard</forename>
+                        <surname>Mead</surname>
+                    </persName>!"
+                </sp>
+            </p>
+            
+            <p>
+                <sp>"Business or profession?"</sp>
+            </p>
+            
+            <p>
+                <sp>"I guess you'd call me a writer."</sp>
+            </p>
+            
+            <p>
+                <sp>"No profession,"</sp>
+                <personification device="stylistic" category="trope"> said the 
+                    <metonymy category="trope" device="stylistic" ref="policeman">police car</metonymy>, as if talking to itself</personification>. The light held him fixed,
+                <simile category="figure_of_speech" device="stylistic">like a museum specimen</simile>,
+                <metaphor category="trope" device="stylistic">needle thrust through chest</metaphor>. 
+            </p>
+
+            <p>
+                <sp>"You might say that,"</sp> said 
+                <persName type="character" who="Leonard Mead">
+                    <persTitle>Mr.</persTitle>
+                    <surname>Mead</surname></persName>.
+                <reference type="anaphoric" to="Leonard Mead">He</reference> hadn't written in years. Magazines and books didn't sell any more. Everything went on in the 
+                <epithet category="trope" device="stylistic" ref="houses">tomblike</epithet> houses at night now, 
+                <reference type="anaphoric">he</reference> thought, continuing his fancy. 
+                <periphrasis device="stylistic" category="figure_of_speech">The tombs</periphrasis>, ill-lit by television light, where the people sat
+                <simile category="figure_of_speech" device="stylistic">like the dead</simile>, the gray or multicolored lights touching their faces, but never really touching 
+                <reference type="anaphoric" to="the people">them</reference>.
+            </p>
+
+            <p>
+                <sp>"No profession,"</sp> said the 
+                <periphrasis device="stylistic" category="figure_of_speech">
+                    <metonymy category="trope" device="stylistic" ref="policeman">phonograph voice</metonymy>
+                </periphrasis>, 
+                <onomatopoeia device="stylistic" category="trope">hissing</onomatopoeia>.
+                <sp>"What are you doing out?"</sp>
+            </p>
+
+            <p>
+                <sp>"Walking,"</sp> said 
+                <persName type="character" who="Leonard Mead">
+                    <forename>Leonard</forename>
+                    <surname> Mead</surname>
+                </persName>.
+            </p>
+
+            <p>
+                <sp>"Walking!"</sp>
+            </p>
+
+            <p>
+                <sp>"Just walking,"</sp> 
+                <reference type="anaphoric" to="Leonard Mead">he</reference> said simply, but his face felt cold.
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Walking, just walking, walking</repetition>?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Yes, sir."</sp>
+            </p>
+
+            <p>
+                <sp>"Walking where? For what?"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<anaphora category="figure_of_speech" device="stylistic">Walking for air. Walking to see.</anaphora>"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Your address!"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<address type="fictional">
+                        <house_number>Eleven</house_number>
+                        <street>South Saint James Street</street>
+                    </address>."
+                </sp>
+            </p>
+
+            <p>
+                <sp>"And there is air in your house, you have an air conditioner,
+                    <persName type="character" who="Leonard Mead">
+                        <persTitle>Mr.</persTitle>
+                        <surname> Mead</surname></persName>?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Yes."</sp>
+            </p>
+
+            <p>
+                <sp>"And you have a
+                    <periphrasis category="figure_of_speech" device="stylistic">viewing screen</periphrasis> in your house to see with?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"No."</sp>
+            </p>
+
+            <p>
+                <sp>"No?"</sp> There was a crackling quiet that in itself was an accusation.
+            </p>
+
+            <p>
+                <sp>"Are you married,
+                    <persName type="character" who="Leonard Mead">
+                        <persTitle>Mr.</persTitle>
+                        <surname>Mead</surname>
+                    </persName>?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"No."</sp>
+            </p>
+
+            <p>
+                <sp>"Not married,"</sp> said the 
+                <metonymy category="trope" device="stylistic" ref="policeman">police voice</metonymy> behind the fiery beam. The moon was high and clear among the stars and 
+                the houses were 
+                <zeugma device="stylistic" category="trope">gray and silent</zeugma>.
+            </p>
+
+            <p>
+                <sp>"Nobody wanted me,"</sp> said 
+                <persName type="character" who="Leonard Mead">
+                    <forename>Leonard</forename>
+                    <surname>Mead</surname>
+                </persName> with a smile. 
+            </p>
+
+            <p>
+                <sp>"Don't speak unless you're spoken to!"</sp>
+            </p>
+
+            <p>
+                <persName type="character" who="Leonard Mead">
+                    <forename>Leonard</forename>
+                    <surname>Mead</surname>
+                </persName> waited in the cold night. 
+            </p>
+
+            <p>
+                <sp>"Just walking, 
+                    <persName type="character" who="Leonard Mead">
+                        <persTitle>Mr.</persTitle>
+                        <surname>Mead</surname>
+                    </persName>?" 
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Yes."</sp>
+            </p>
+
+            <p>
+                <sp>"But you haven't explained for what purpose."</sp>
+            </p>
+
+            <p>
+                <sp>"I explained; for air, and to see, and just to walk."</sp> 
+            </p>
+
+            <p>
+                <sp>"Have you done this often?"</sp>
+            </p>
+
+            <p>
+                <sp>"Every night for years."</sp>
+            </p>
+
+            <p>The 
+                <personification category="trope" device="stylistic">police car sat</personification> in the center of the street with its 
+                <periphrasis category="figure_of_speech" device="stylistic">radio throat</periphrasis> faintly humming.
+            </p>
+
+            <p>
+                <sp>"Well, 
+                    <persName type="character" who="Leonard Mead">
+                        <persTitle>Mr.</persTitle>
+                        <surname>Mead</surname></persName>," 
+                </sp>
+                <reference type="anaphoric" to="radio throat">it</reference> said. 
+            </p>
+
+            <p>
+                <sp>"Is that all?"</sp>
+                <reference type="anaphoric" to="Leonard Mead">he</reference> asked politely. 
+            </p>
+
+            <p>
+                <sp>"Yes,"</sp> said the
+                <metonymy category="trope" device="stylistic" ref="policeman">voice</metonymy>.
+                <sp>"Here."</sp> There was a sigh, a pop. The back door of the police car sprang wide. 
+                <sp>"Get in."</sp>
+            </p>
+
+            <p>
+                <sp>"Wait a minute, I haven't done anything!"</sp>
+            </p>
+
+            <p>
+                <sp>"Get in."</sp>
+            </p>
+
+            <p>
+                <sp>"I protest!"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="Leonard Mead">
+                        <persTitle>Mr.</persTitle>
+                        <surname>Mead</surname>
+                    </persName>." 
+                </sp>
+            </p>
+
+            <p>He walked like a man suddenly drunk.
+                <anaphora category="figure_of_speech" device="stylistic">As
+                    <reference type="anaphoric" to="Leonard Mead">he</reference> passed the front window of the car he looked in. As 
+                    <reference type="anaphoric" to="Leonard Mead">he</reference> had expected, there was no one in the front seat, no one in the car at all
+                </anaphora>. 
+            </p>
+
+            <p>
+                <sp>"Get in."</sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="Leonard Mead">He</reference> put his and to the door and peered into the back seat, which was a little cell, a little black 
+                jail with bars. 
+                <anaphora category="figure_of_speech" device="stylistic">
+                    <reference type="anaphoric" to="cell">It</reference> smelled of riveted steel. 
+                    <reference type="anaphoric" to="cell">It</reference> smelled of harsh antiseptic; 
+                    <reference type="anaphoric" to="cell">it</reference> smelled too clean and hard and metallic 
+                </anaphora>. There was nothing soft there.
+            </p>
+
+            <p>
+                <sp>"Now if you had a wife to give you an alibi,"</sp> said the 
+                <metonymy category="trope" device="stylistic" ref="policeman">iron voice</metonymy>. 
+                <sp>"
+                    <break_in_the_narrative category="figure_of_speech" device="stylistic">But-</break_in_the_narrative>" 
+                </sp> 
+            </p>
+            
+            <p>
+                <sp>"Where are you taking me?"</sp>
+            </p>
+
+            <p>The
+                <personification category="trope" device="stylistic">car hesitated, or rather gave a faint 
+                    <onomatopoeia device="stylistic" category="trope">whirring</onomatopoeia> click
+                </personification>, as if information, somewhere, was dropping card by punch-slotted card under 
+                <epithet category="trope" device="stylistic" ref="eyes">electric</epithet> eyes.
+                <sp>"To 
+                    <orgName type="fictional">the Psychiatric Center for Research on Regressive Tendencies</orgName>."
+                </sp>
+            </p>
+
+            <p>He got in. The door shut with a soft thud. The police car rolled through the night avenues, flashing its dim lights ahead.</p>
+
+            <p>They passed one house on one street a moment later, one house in an entire city of houses that were dark, but this one particular house had all 
+                of its electric lights brightly lit, every window a loud yellow illumination, square and warm in the
+                <epithet category="trope" device="stylistic" ref="darkness">cool</epithet> darkness.
+            </p>
+
+            <p>
+                <sp>"That's my house,"</sp> said 
+                <persName type="character" who="Leonard Mead">
+                    <forename>Leonard</forename>
+                    <surname>Mead</surname>
+                </persName>. 
+            </p>
+
+            <p>No one answered him.</p>
+
+            <p>The car moved down the empty 
+                <epithet device="stylistic" ref="streets" category="trope">river-bed</epithet> streets and off away, leaving the empty streets with the empty side-walks, 
+                and no sound and no motion all the rest of the chill 
+                <date>
+                    <month>November</month>
+                </date> night. 
+            </p>
+
+        </text>
+
+    </story>
+
+    <story type="short story" title="All Summer in a Day">
+        <header>
+            <meta author="Olga Loboda"/>
+            <meta module="INSTG037"/>
+            <meta lecturer="Simon Mahony"/>
+            <meta source="http://staff.esuhsd.org/danielle/English%20Department%20LVillage/RT/Short%20Stories/All%20Summer%20in%20a%20Day.pdf"/>
+            <bibl>
+                <title level="a">All Summer in a Day</title>
+                <author>
+                    <persName type="author" who="Ray Bradbury">
+                        <forename>Ray</forename>
+                        <surname>Bradbury</surname>
+                    </persName>
+                </author>
+            </bibl>
+        </header>
+
+        <text>
+            
+            <p>
+                <sp>"Ready?"</sp>
+            </p>
+
+            <p>
+                <sp>"Ready."</sp>
+            </p>
+            
+            <p>
+                <sp>"Now?"</sp>
+            </p>
+
+            <p>
+                <sp>"Soon."</sp>
+            </p>
+
+            <p>
+                <sp>"Do the scientists really know?
+                    <repetition device="rhetorical">Will it happen today, will it</repetition>?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Look, look</repetition>; see for yourself!"
+                </sp>
+            </p>
+
+            <p>The children pressed to each other
+                <simile category="figure_of_speech" device="stylistic">like so many roses, so many weeds</simile>, intermixed, peering out for a look at the hidden sun.
+                </p>
+            <p>It rained.</p>
+
+            <p>It had been raining for seven years; thousands upon thousands of days compounded and filled from one end to the other with rain, 
+                with the drum and gush of water, with the 
+                <epithet device="stylistic" category="trope" ref="fall of showers">sweet crystal</epithet> fall of showers and the concussion of storms so heavy they were 
+                tidal waves come over the islands. A thousand forests had been crushed under the rain and grown up a thousand times to be crushed again. 
+                <anaphora device="stylistic" category="figure_of_speech">And this was the way life was forever on the planet
+                    <geogName>
+                        <planet>Venus</planet>
+                    </geogName>, and this was the schoolroom of the children of the rocket men and women who had come to a raining world to set up civilization and 
+                    live out their lives
+                </anaphora>.
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">It's stopping, it's stopping!</repetition>"
+                </sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Yes, yes!</repetition>"
+                </sp>
+            </p>
+
+            <p>
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName> stood apart from
+                <reference type="cataphoric" to="children">them</reference>, from these children who could ever remember a time when there wasn't
+                <repetition device="rhetorical">rain and rain and rain</repetition>. 
+                <reference type="anaphoric" to="children">They</reference> were all nine years old, and if there had been a day, seven years ago, when
+                <metaphor category="trope" device="stylistic">the sun came out for an hour and showed its face</metaphor> to the 
+                <epithet category="trope" device="stylistic" ref="world">stunned</epithet> world, they could not recall. Sometimes, at night,
+                <reference type="anaphoric" to="Margot">she</reference> heard them stir, in remembrance, and 
+                <anaphora category="figure_of_speech" device="stylistic">
+                    <reference type="anaphoric" to="Margot">she</reference> knew
+                    <reference type="anaphoric" to="children">they</reference> were
+                    <zeugma category="trope" device="stylistic">dreaming and remembering</zeugma>
+                    <metaphor category="trope" device="stylistic">
+                        <periphrasis category="figure_of_speech" device="stylistic">gold or a yellow crayon or a coin</periphrasis> large enough to buy the world with
+                    </metaphor>.
+                    <reference type="anaphoric" to="Margot">She</reference> knew
+                    <reference type="anaphoric" to="children">they</reference> thought
+                    <reference type="anaphoric" to="children">they</reference> remembered a warmness, like a blushing
+                    <enumeration category="figure_of_speech" device="stylistic">in the face, in the body, in the arms and legs and trembling hands</enumeration>
+                </anaphora>. But then
+                <reference type="anaphoric" to="children">they</reference> always awoke to the 
+                <onomatopoeia device="stylistic" category="trope">tatting</onomatopoeia> drum, the endless shaking down of clear bead necklaces upon
+                <enumeration category="figure_of_speech" device="stylistic">the roof, the walk, the gardens,
+                    <zeugma device="stylistic" category="trope">the forests, and their dreams</zeugma>
+                </enumeration>were gone.
+            </p>
+
+            <p>All day yesterday
+                <reference type="anaphoric" to="children">they</reference> had read in class about the sun. About how
+                <simile category="figure_of_speech" device="stylistic">like a lemon</simile> it was, and how hot. And 
+                <reference type="anaphoric" to="children">they</reference> had written small stories or essays or poems about it: 
+                <emph for="citation">I think
+                <metaphor category="trope" device="stylistic">the sun is a flower, That blooms for just one hour</metaphor>
+                </emph>. That was
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName>'s poem, read in a quiet voice in the still classroom while the rain was falling outside.
+            </p>
+
+            <p>
+                <sp>"Aw, you didn't write that!"</sp> protested one of the boys.
+            </p>
+
+            <p>
+                <sp>"I did,"</sp> said 
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName>. 
+                <sp>"I did."</sp>  
+            </p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="William">
+                        <forename>William</forename>
+                    </persName>!"
+                </sp> said the teacher.
+            </p>
+
+            <p>But that was yesterday. Now the rain was slackening, and the children were crushed in the great thick windows.</p>
+
+            <p>
+                <sp>"Where's teacher?"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<reference type="anaphoric" to="teacher">She</reference>'ll be back."
+                </sp>                
+            </p>
+
+            <p>
+                <sp>
+                    "<reference type="anaphoric" to="teacher">She</reference>'d better hurry, we'll miss it!"
+                </sp>
+            </p>
+
+            <p>They turned on themselves,
+                <simile category="figure_of_speech" device="stylistic">like a feverish wheel</simile>, all tumbling spokes.
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName> stood alone.
+                <epiphora category="figure_of_speech" device="stylistic">
+                    <reference type="anaphoric">She</reference> was a very frail girl who looked as if she had been lost in the rain for years and the rain had washed out
+                    <parallelism category="figure_of_speech" device="stylistic">the blue from her eyes and the red from her mouth and the yellow from her hair</parallelism>
+                </epiphora>.
+                <metaphor device="stylistic" category="trope">
+                    <reference type="anaphoric" to="Margot">She</reference> was an old photograph dusted from an album, whitened away
+                </metaphor>, and if she spoke at all her
+                would be a ghost. Now she stood, separate, staring at the rain and the
+                <zeugma category="trope" device="stylistic">loud wet</zeugma> world beyond the huge glass.
+            </p>
+
+            <p>
+                <sp>"What're <emph>you</emph> looking at?</sp>" said
+                <persName type="character" who="William">
+                    <forename>William</forename>
+                </persName>.
+            </p>
+
+            <p>
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName> said nothing.
+            </p>
+
+            <p>
+                <sp>"Speak when you're spoken to."</sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="William">He</reference> gave her a shove. But 
+                <reference type="anaphoric" to="Margot">she</reference> did not move; rather
+                <reference type="anaphoric" to="Margot">she</reference> let herself be moved only by him and nothing else.
+                <reference type="anaphoric" to="children">They</reference> edged away from her,
+                <reference type="anaphoric" to="children">they</reference> would not look at her.
+                <reference type="anaphoric" to="Margot">She</reference> felt them go away. And this was because 
+                <reference type="anaphoric" to="Margot">she</reference> would play no games with them in the echoing tunnels of the underground city. If they tagged her and ran, 
+                she stood 
+                <onomatopoeia category="trope" device="stylistic">blinking</onomatopoeia> after them and did not follow. When the class sang songs about
+                <enumeration category="figure_of_speech" device="stylistic">happiness and life and games</enumeration> her lips barely moved.
+                Only when they sang about the sun and the summer did her lips move as she watched the drenched windows. And then, of course, the biggest crime of all was that
+                <reference type="anaphoric" to="Margot">she</reference> had come here only five years ago from
+                <geogName>
+                    <planet>Earth</planet>
+                </geogName>, and 
+                <reference type="anaphoric" to="Margot">she</reference> remembered the sun and the way the sun was and the sky was when she was four in
+                <geogName>
+                    <region type="state">Ohio</region>
+                </geogName>.
+                <anaphora category="figure_of_speech" device="stylistic"> And 
+                    <repetition device="rhetorical">
+                        <reference type="anaphoric" to="children">they</reference>,
+                        <reference type="anaphoric" to="children">they</reference>
+                    </repetition>had been on
+                    <geogName>
+                        <planet>Venus</planet>
+                    </geogName> all their lives, and 
+                    <repetition device="rhetorical">
+                        <reference type="anaphoric" to="children">they</reference> 
+                        <reference type="anaphoric" to="children">they</reference>
+                    </repetition>had been only two years old when last the sun came out and had long since forgotten the
+                    <zeugma category="trope" device="stylistic">color and heat</zeugma> of it and the way it really was
+                </anaphora>.
+            </p>
+
+            <p>But 
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName> remembered.
+            </p>
+
+            <p>
+                <sp>"It's
+                    <simile category="figure_of_speech" device="stylistic">like a penny</simile>,"
+                </sp>
+                <reference type="anaphoric" to="Margot">she</reference> said once, eyes closed.
+            </p>
+
+            <p>
+                <sp>"No it's not!"</sp> the children cried.
+            </p>
+
+            <p>
+                <sp>"It's
+                    <simile category="figure_of_speech" device="stylistic">like a fire</simile>,"
+                </sp>
+                <reference type="anaphoric" to="Margot">she</reference> said,
+                <sp>"in the stove."</sp>
+            </p>
+
+            <p>
+                <sp>"You're lying, you don't remember!"</sp> cried the children.
+            </p>
+
+            <p>But 
+                <reference type="anaphoric" to="Margot">she</reference> remembered and stood quietly apart from all of them and watched the patterning windows. And once, a month ago,
+                <reference type="anaphoric" to="Margot">she</reference> had refused to shower in the school shower rooms, had clutched her hands to her ears and over her head, 
+                screaming the water mustn't touch her head. So after that,
+                <repetition device="rhetorical">dimly, dimly</repetition>,
+                <reference type="anaphoric" to="Margot">she</reference> sensed it,
+                <reference type="anaphoric" to="Margot">she</reference> was different and
+                <reference type="anaphoric" to="children">they</reference> knew her difference and kept away. There was talk that her father and mother were taking her back to
+                <geogName>
+                    <planet>Earth</planet>
+                </geogName> next year; it seemed vital to her that
+                <reference type="anaphoric" to="father and mother">they</reference> do so,though it would mean the loss of thousands of dollars to her family. And so, 
+                the children hated her for all these reasons of big and little consequence. 
+                <reference type="anaphoric" to="children">They</reference> hated her
+                <enumeration device="stylistic" category="figure_of_speech">
+                    <zeugma category="trope" device="stylistic">pale
+                        <epithet category="trope" device="stylistic" ref="face">snow</epithet> face, her waiting silence, her thinness, and her possible future
+                    </zeugma>
+                </enumeration>.
+            </p>
+
+            <p>
+                <sp>"Get away!"</sp> The boy gave her another push. 
+                <sp>"What're you waiting for?"</sp>
+            </p>
+
+            <p>Then, for the first time,
+                <reference type="anaphoric" to="Margot">she</reference> turned and looked at him. And 
+                <metaphor device="stylistic" category="trope">what
+                    <reference type="anaphoric" to="Margot">she</reference> was waiting for was in her eyes
+                </metaphor>.
+            </p>
+
+            <p>
+                <sp>"Well, don't wait around here!"</sp> cried the boy savagely.
+                <sp>"You won't see nothing!"</sp>
+            </p>
+
+            <p>Her lips moved.</p>
+
+            <p>
+                <sp>"Nothing!"</sp>
+                <reference type="anaphoric" to="boy">he</reference> cried.
+                <sp>"It was all a joke, wasn't it?"</sp>
+                <reference type="anaphoric" to="boy"> He</reference> turned to the other children.
+                <sp>"Nothing's happening today. <emph>Is</emph> it?"</sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> all 
+                <onomatopoeia device="stylistic" category="trope">blinked</onomatopoeia> at him and then, understanding, laughed and shook their heads.
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Nothing, nothing</repetition>!"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Oh, but,"</sp> 
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename> 
+                </persName> 
+                <onomatopoeia device="stylistic" category="trope">whispered</onomatopoeia>, her eyes
+                <epithet category="trope" device="stylistic" ref="eyes">helpless</epithet>.
+                <sp>"But this is the day, the scientists
+                    <climax category="figure_of_speech" device="stylistic"> predict,
+                        <reference type="anaphoric" to="scientists">they</reference> say,
+                        <reference type="anaphoric" to="scientists">they</reference> know
+                    </climax>,
+                    <break_in_the_narrative category="figure_of_speech" device="stylistic">the sun...</break_in_the_narrative>"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"All a joke!"</sp> said the boy, and seized her roughly.
+                <sp>"Hey, everyone, let's put her in a closet before the teacher comes!"</sp>
+            </p>
+
+            <p>
+                <sp>"No,"</sp> said
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName>, falling back.
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference>
+                <enumeration category="figure_of_speech" device="stylistic"> surged about her, caught her up and bore her</enumeration>,
+                <enumeration device="stylistic" category="figure_of_speech"> protesting, and then pleading, and then crying</enumeration>, back into
+                <enumeration category="figure_of_speech" device="stylistic"> a tunnel, a room, a closet</enumeration>, where
+                <reference type="anaphoric" to="children">they</reference> slammed and locked the door.
+                <reference type="anaphoric" to="children">They</reference> stood looking at the door and saw it tremble from her
+                <climax device="stylistic" category="figure_of_speech">beating and throwing herself</climax> against
+                <reference type="anaphoric" to="door">it</reference>.
+                <reference type="anaphoric" to="children">They</reference> heard her muffled cries. Then, smiling,
+                <reference type="anaphoric" to="children">they</reference> turned and went out and back down the tunnel, just as the teacher arrived.
+            </p>
+
+            <p>
+                <sp>"Ready, children?"</sp>
+                <reference type="anaphoric" to="teacher">She</reference> glanced at her watch.
+            </p>
+
+            <p>
+                <sp>"Yes!"</sp> said everyone.
+            </p>
+
+            <p>
+                <sp>"Are we all here?"</sp>
+            </p>
+
+            <p>
+                <sp>"Yes!"</sp>
+            </p>
+
+            <p>The rain slacked still more.</p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> crowded to the huge door.
+            </p>
+
+            <p>The rain stopped.</p>
+
+            <p>It was as if, in the midst of a film concerning
+                <enumeration category="figure_of_speech" device="stylistic">an avalanche, a tornado, a hurricane, a volcanic eruption</enumeration>,
+                <climax category="figure_of_speech" device="stylistic">something had, first, gone wrong with the sound apparatus, thus 
+                    <onomatopoeia category="trope" device="stylistic">muffling</onomatopoeia> and finally cutting off 
+                    all noise, all of the blasts and repercussions and thunders</climax>, and then, second, ripped the film from the projector and inserted in its place 
+                a beautiful tropical slide which did not move or tremor. The world ground to a standstill. The silence was so immense and unbelievable that you 
+                felt your ears had been stuffed or you had lost your hearing altogether. The children put their hands to their ears.
+                <reference type="anaphoric" to="children">They</reference> stood apart.
+                The door slid back and
+                <metaphor device="stylistic" category="trope">the smell of the silent, waiting world came in to them</metaphor>.</p>
+            
+            <p>The sun came out.</p>
+
+            <p>
+                <reference type="anaphoric" to="sun">It</reference> was the color of flaming bronze and
+                <reference type="anaphoric" to="sun">it</reference> was very large. And the sky around
+                <reference type="anaphoric" to="sun">it</reference> was a blazing blue tile color. And
+                <metaphor category="trope" device="stylistic">the jungle burned with sunlight</metaphor> as the children,
+                <metaphor category="trope" device="stylistic">released from their spell</metaphor>, rushed out, yelling into the springtime.
+            </p>
+
+            <p>
+                <sp>"Now, don't go too far,"</sp> called the teacher after them.
+                <sp>"You've only two hours, you know. You wouldn't want to get caught out!"</sp>
+            </p>
+
+            <p>But 
+                <anaphora device="stylistic" category="figure_of_speech">
+                    <reference type="anaphoric" to="children">they</reference> were running and turning their faces up to the sky and feeling the sun on their cheeks
+                    <simile category="figure_of_speech" device="stylistic">like a warm iron</simile>;
+                    <reference type="anaphoric" to="children">they</reference> were taking off their jackets and
+                    <hyperbole category="trope" device="stylistic">letting the sun burn their arms</hyperbole>
+                </anaphora>.
+            </p>
+
+            <p>
+                <sp>"Oh, it's better than the sun lamps, isn't it?"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Much, much</repetition> better!"
+                </sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> stopped running and stood in the great jungle that covered
+                <geogName>
+                    <planet>Venus</planet>
+                </geogName>, that grew and never stopped growing, tumultuously, even as you watched
+                <reference type="anaphoric" to="jungle">it</reference>.
+                
+                
+                <anaphora category="figure_of_speech" device="stylistic">
+                    <metaphor device="stylistic" category="trope">
+                        <reference type="anaphoric" to="jungle">It</reference> was a nest of octopi, clustering up great arms of 
+                        <epithet device="stylistic" category="trope" ref="weed">fleshlike</epithet> weed, wavering, flowering in this brief spring
+                    </metaphor>.
+                    <reference type="anaphoric" to="jungle"> It</reference> was the color of rubber and ash, this
+                    <reference type="cataphoric">jungle</reference>, from the many years without sun.
+                    <reference type="anaphoric" to="jungle">It</reference> was the color of stones and white cheeses and ink, and 
+                    <reference type="anaphoric" to="jungle">it</reference> was the color of the moon
+                </anaphora>.
+            </p>
+
+            <p>The children lay out, laughing, on the
+                <personification category="trope" device="stylistic">jungle mattress, and heard it sigh and 
+                    <onomatopoeia device="stylistic" category="trope">squeak</onomatopoeia> under them resilient and alive
+                </personification>.
+                <reference type="anaphoric" to="children">They</reference> ran among the trees,
+                <reference type="anaphoric" to="children">they</reference> slipped and fell,
+                <reference type="anaphoric" to="children">they</reference> pushed each other,
+                <reference type="anaphoric" to="children">they</reference> played hide-and-seek and tag, but most of all them squinted at the sun until the tears ran down their faces;
+                <reference type="anaphoric" to="children">they</reference> put their hands up to that
+                <metonymy device="stylistic" category="trope" ref="sun">yellowness</metonymy> and that amazing
+                <metonymy category="trope" device="stylistic" ref="sky">blueness</metonymy> and
+                <reference type="anaphoric" to="children">they</reference> breathed of the
+                <repetition device="rhetorical">fresh, fresh</repetition> air
+                <metaphor device="stylistic" category="trope">
+                    <repetition device="rhetorical">and listened and listened</repetition> to the silence which suspended them in a
+                    <periphrasis category="figure_of_speech" device="stylistic">blessed sea of no sound and no motion</periphrasis>
+                </metaphor>.
+                <epiphora device="stylistic" category="figure_of_speech">
+                    <reference type="anaphoric" to="children">They</reference> looked at everything and savored everything
+                </epiphora>. Then, wildly,
+                <simile category="figure_of_speech" device="stylistic">like animals escaped from their caves</simile>,
+                <anaphora device="stylistic" category="figure_of_speech">
+                    <reference type="anaphoric" to="children">they</reference>  
+                    <repetition device="rhetorical">ran and ran</repetition> in
+                    <metaphor category="trope" device="stylistic">shouting circles</metaphor>.
+                    <reference type="anaphoric" to="children">They</reference> ran for an hour and did not stop running
+                </anaphora>.
+            </p>
+
+            <p>
+                <break_in_the_narrative category="figure_of_speech" device="stylistic">And then-</break_in_the_narrative>
+                </p>
+            
+            <p>In the midst of their running one of the girls wailed.</p>
+
+            <p>Everyone stopped.</p>
+
+            <p>The girl, standing in the open, held out her hand.</p>
+
+            <p>
+                <sp>"Oh,
+                    <repetition device="rhetorical">look, look</repetition>,"
+                </sp>
+                <reference type="anaphoric" to="girl">she</reference> said, trembling.    
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> came slowly to look at her opened palm.
+            </p>
+
+            <p>In the center of
+                <reference type="anaphoric" to="palm">it</reference>,
+                <epithet device="stylistic" category="trope" ref="raindrop">cupped</epithet> and huge, was a single raindrop.
+                <reference type="anaphoric" to="girl">She</reference> began to cry, looking at
+                <reference type="anaphoric" to="raindrop">it</reference>.
+                <reference type="anaphoric" to="children">They</reference> glanced quietly at the sun.
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">Oh. Oh</repetition>."
+                </sp>
+            </p>
+
+
+            <p>A few cold drops fell on their noses and their cheeks and their mouths. The sun faded behind a stir of mist. A wind blew cold around them.
+                <reference type="anaphoric" to="children">They</reference> turned and started to walk back toward the underground house, their hands at their sides, their smiles 
+                vanishing away.
+            </p>
+
+            <p>A boom of thunder startled them and
+                <simile category="figure_of_speech" device="stylistic">like leaves before a new hurricane</simile>,
+                <reference type="anaphoric" to="children">they</reference> tumbled upon each other and ran.
+                <climax device="stylistic" category="figure_of_speech">Lightning struck ten miles away, five miles away, a mile, a half mile</climax>. The sky darkened into 
+                midnight in a flash.
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> stood in the doorway of the underground for a moment until it was raining hard. Then
+                <reference type="anaphoric" to="children">they</reference> closed the door and heard the
+                <hyperbole category="trope" device="stylistic">gigantic sound of the rain falling in tons and avalanches, everywhere and forever</hyperbole>.
+            </p>
+
+            <p>
+                <sp>"Will it be seven more years?"</sp>
+            </p>
+
+            <p>
+                <sp>"Yes. Seven."</sp>
+            </p>
+
+            <p>Then one of them gave a little cry.</p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="Margot">
+                        <forename>Margot</forename>
+                    </persName>!"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"What?"</sp>
+            </p>
+
+            <p>
+                <sp>"She's still in the closet where we locked her."</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="Margot">
+                        <forename>Margot</forename>
+                    </persName>."
+                </sp>
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> stood as if someone had driven them,
+                <simile category="figure_of_speech" device="stylistic">like so many stakes</simile>, into the floor.
+                <anaphora category="figure_of_speech" device="stylistic">
+                    <reference type="anaphoric" to="children">They</reference> looked at each other and then looked away.
+                    <reference type="anaphoric" to="children">They</reference> glanced out at the world that was
+                    <repetition device="rhetorical">raining now and raining and raining</repetition>steadily.
+                    <reference type="anaphoric" to="children">They</reference> could not meet each other's glances. Their faces were
+                    <zeugma category="trope" device="stylistic">solemn and pale</zeugma>.
+                    <reference type="anaphoric" to="children">They</reference> looked at their hands and feet, their faces down
+                </anaphora>.
+            </p>
+
+            <p>
+                <sp>
+                    "<persName type="character" who="Margot">
+                        <forename>Margot</forename>
+                    </persName>."
+                </sp>
+            </p>
+
+            <p>One of the girls said,
+                <sp>"Well...?"</sp>
+            </p>
+
+            <p>No one moved.</p>
+
+            <p>
+                <sp>"Go on,"</sp> whispered the girl.
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="children">They</reference> walked slowly down the hall in the sound of cold rain.
+                <reference type="anaphoric" to="children">They</reference> turned through the doorway to the room in the sound of the storm and thunder, lightning on their faces,
+                <zeugma category="trope" device="stylistic">blue and terrible</zeugma>. 
+                <reference type="anaphoric" to="children">They</reference> walked over to the closet door slowly and stood by
+                <reference type="anaphoric" to="closet">it</reference>.
+            </p>
+            
+            <p>Behind the closet door was only silence.</p>
+            
+            <p>
+                <reference type="anaphoric" to="children">They</reference> unlocked the door, even more slowly, and let
+                <persName type="character" who="Margot">
+                    <forename>Margot</forename>
+                </persName> out.
+            </p>
+
+        </text>
+
+    </story>
+
+    <story type="short story" title="The Dragon">
+
+        <header>
+            <meta author="Olga Loboda"/>
+            <meta module="INSTG037"/>
+            <meta lecturer="Simon Mahony"/>
+            <meta source="http://chomikuj.pl/kammizia/b/Bradbury*2c+Ray+-+The+Dragon,2257917868.pdf"/>
+            <bibl>
+                <title level="a">The Dragon</title>
+                <author>
+                    <persName type="author" who="Ray Bradbury">
+                        <forename>Ray</forename>
+                        <surname>Bradbury</surname>
+                    </persName>
+                </author>
+            </bibl>
+        </header>
+
+        <text>
+
+            <p>The night blew in the short grass on the moor; there was no other motion.
+                <hyperbole category="trope" device="stylistic">It had been years since a single bird had flown by in the great blind shell of sky.</hyperbole>
+            </p>
+            
+            <p>Long ago 
+                <personification category="trope" device="stylistic">a few small stones had simulated life when they crumbled and fell into dust</personification>. Now only the 
+                <metaphor category="trope" device="stylistic">
+                    <personification category="trope" device="stylistic"> night moved</personification> in the souls of the two men
+                </metaphor>bent by their
+                <epithet category="trope" device="stylistic" ref="fire">lonely</epithet> fire in the wilderness; 
+                <metaphor category="trope" device="stylistic">
+                    <personification category="trope" device="stylistic">darkness pumped quietly in their veins and ticked silently in their temples and their wrists</personification>
+                </metaphor>. 
+            </p>
+
+            <p>Firelight fled up and down their 
+                <metaphor category="trope" device="stylistic">
+                    <epithet category="trope" device="stylistic" ref="faces">wild</epithet> faces and welled in their eyes
+                </metaphor>in orange tatters. 
+                <metaphor category="trope" device="stylistic">
+                    <reference type="cataphoric" to="two men">They</reference> listened to each other's faint
+                </metaphor>, cool breathing and the
+                <epithet category="trope" device="stylistic" ref="blink">lizard</epithet> blink of their eyelids. At last, one man poked the fire with his sword.
+            </p>
+
+            <p>
+                <sp>"Don't idiot; you'll give us away!"</sp>
+            </p>
+
+            <p>
+                <sp>"No matter,"</sp> said the second man, 
+                <sp>"The dragon can smell us miles off anyway. God's breath, it's cold. I wish I was back at the castle."</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<hyperbole category="trope" device="stylistic">It's death, not sleep,</hyperbole> we're after..."
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Why? Why? The dragon never sets foot in the town!"</sp>
+            </p>
+
+            <p>
+                <sp>"Quiet, fool! He eats men traveling alone from our town to the next!"</sp>
+            </p>
+
+            <p>
+                <sp>"Let them be eaten and let us get home!"</sp>
+            </p>
+
+            <p>
+                <sp>"Wait now; listen!"</sp>
+            </p>
+
+            <p>The
+                <metaphor category="trope" device="stylistic">two men froze</metaphor>.
+            </p>
+
+            <p>
+                <reference type="anaphoric" to="men">They</reference> waited a long time, but there was only the shake of their horses'
+                <epithet category="trope" device="stylistic" ref="skin">nervous</epithet> skin
+                <simile category="figure_of_speech" device="stylistic">like black velvet tambourines
+                    <onomatopoeia category="trope" device="stylistic">jingling</onomatopoeia> the silver stirrup buckles</simile>,
+                <repetition device="rhetorical">softly, softly</repetition>.
+            </p>
+
+            <p>
+                <sp>"Ah."</sp> The second man sighed.<sp>"What
+                    <metaphor category="trope" device="stylistic">a land of nightmares</metaphor>.
+                    <hyperbole category="trope" device="stylistic"> Everything happens here</hyperbole>.
+                    <metaphor category="trope" device="stylistic"> Someone blows out the sun; it's night</metaphor>.
+                    <repetition device="rhetorical">And then, and then</repetition>, oh, God, listen! This dragon, they say his
+                    <metaphor category="trope" device="stylistic">eyes are fire</metaphor>. His breath a white gas;
+                    <asyndeton category="figure_of_speech" device="stylistic"/>you can see him burn across the dark lands.
+                    <reference type="anaphoric" to="dragon">He</reference> runs with sulfur and thunder and kindles the grass.
+                    <attachment category="figure_of_speech" device="stylistic">Sheep panic and die insane</attachment>. Women deliver forth monsters.
+                    <metaphor category="trope" device="stylistic">
+                        <hyperbole category="trope" device="stylistic">The dragon's fury is such that tower walls shake back to dust</hyperbole>
+                    </metaphor>. His victims, at sunrise, are strewn hither thither on the hills. How many knights, I ask, have gone for this monster and failed, 
+                    even as we shall fail?"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Enough of that!"</sp>
+            </p>
+
+            <p>
+                <sp>"More than enough! Out here in this desolation I cannot tell what year this is!"</sp>
+            </p>
+
+            <p>
+                <sp>"Nine hundred years since
+                    <event>the Nativity</event>."
+                </sp>
+            </p>
+
+            <p>
+                <sp>"No, no,"</sp> whispered the second man, eyes shut,"
+                <sp>On this moor is no
+                    <personification category="trope" device="stylistic">Time</personification>, is only
+                    <personification category="trope" device="stylistic">Forever</personification>. I feel if I ran back on the road
+                    <enumeration category="figure_of_speech" device="stylistic"> the town would be gone, the people yet unborn, things changed, the
+                        castles unquarried from the rocks, the timbers still uncut from the forests
+                    </enumeration>; don't ask how I know; 
+                    <metaphor device="stylistic" category="trope">
+                        <personification category="trope" device="stylistic">the moor knows and tells me
+                        </personification>
+                    </metaphor>. And here we sit alone in the land of the fire dragon, God save us!"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"Be you afraid, then gird on your armor!"</sp>
+            </p>
+
+            <p>
+                <sp>"What use? The dragon runs from nowhere; we cannot guess its home.
+                    <metaphor category="trope" device="stylistic">It vanishes in fog</metaphor>; we know not where it goes. Aye, on with our armor, we'll die well dressed."
+                </sp>
+            </p>
+
+            <p>Half into his silver corselet, the second man stopped again and turned his head. Across the
+                <epithet category="trope" device="stylistic" ref="country">dim</epithet> country,
+                <metaphor category="trope" device="stylistic">
+                    <zeugma category="trope" device="stylistic">full of night and nothingness</zeugma> from the heart of the moor itself,
+                    <personification device="stylistic" category="trope">the wind sprang full of dust from clocks that used dust for telling time</personification>
+                </metaphor>.
+                <metaphor category="trope" device="stylistic">
+                    <personification device="stylistic">There were black suns burning in the heart of this new wind</personification>
+                </metaphor>and a million burnt leaves shaken from some autumn tree beyond the horizon.
+                <anaphora category="figure_of_speech" device="stylistic">
+                    <metaphor category="trope" device="stylistic">This wind
+                        <enumeration category="figure_of_speech" device="stylistic">melted landscapes, lengthened bones
+                            <simile category="figure_of_speech" device="stylistic"> like white wax</simile>, made the blood roil and thicken to a muddy deposit in the brain
+                        </enumeration>
+                    </metaphor>.
+                    <metaphor category="trope" device="stylistic">The wind was a thousand souls dying and all time confused and in transit</metaphor>
+                </anaphora>. It was a fog inside of a mist inside of a darkness, and this place was no man's place and there was no year or hour at all, but only these men in a
+                <epithet category="trope" device="stylistic" ref="emptiness">faceless</epithet> emptiness of sudden frost, storm and which moved behind the
+                <periphrasis category="figure_of_speech" device="stylistic">white thunder</periphrasis> great falling pane of green glass that was the lightning. A
+                <metaphor category="trope" device="stylistic">
+                    <personification device="stylistic" category="trope">squall of rain</personification>
+                </metaphor> drenched the turf; all faded away until there was unbreathing hush and the two men waiting alone with their warmth in a cool season.
+            </p>
+
+            <p>
+                <sp>"There,"</sp> whispered the first man.
+                <sp>"Oh,
+                    <repetition device="rhetorical">there</repetition>..."
+                </sp>
+            </p>
+
+            <p>Miles off, rushing with
+                <climax category="figure_of_speech" device="stylistic">a great chant and a roar</climax> - the dragon.
+            </p>
+            
+            <p> In silence the men buckled on their armor 
+                and mounted their horses. The midnight wilderness was split by a monstrous gushing as the dragon roared
+                <repetition device="rhetorical">nearer, nearer;</repetition> its flashing yellow glare spurted above a hill and then, fold on fold of dark body, 
+                distantly seen, therefore indistinct, flowed over that hill and plunged vanishing into a valley. 
+            </p>
+
+            <p>
+                <sp>"Quick!"</sp>
+            </p>
+
+            <p>
+                They spurred their horses forward to a small hollow.
+            </p>
+
+            <p>
+                <sp>"This is where
+                    <reference type="anaphoric" to="dragon">it</reference> passes!"
+                </sp>
+            </p>
+
+            <p>
+                They seized their lances with mailed fists and blinded their horses by flipping the visors down over their eyes.
+            </p>
+            
+            <p>
+                <sp>"Lord!"</sp>
+            </p>
+
+            <p>
+                <sp>"Yes, let us use
+                    <reference type="anaphoric" to="Lord">His</reference> name."
+                </sp>
+            </p>
+
+            <p>On the instant, the dragon rounded a hill. Its monstrous amber eye fed on them, fired their armor in red glints and glitters. With a 
+                terrible wailing cry and a grinding rush
+                <reference type="anaphoric" to="dragon">it</reference> flung itself forward.
+            </p>
+
+            <p>
+                <sp>"Mercy, God!"</sp>
+            </p>
+
+            <p>The lance struck under the unlidded yellow eye, buckled, tossed the man through the air. The dragon hit, spilled him over, down, ground him under. 
+                Passing, the black brunt of its shoulder smashed the remaining horse and rider a hundred feet against the side of a boulder,
+                <repetition device="rhetorical"> wailing, wailing,</repetition> the dragon shrieking, the fire all about, around, under
+                <reference type="anaphoric" to="dragon">it</reference>, a pink, yellow, orange sun-fire with great soft plumes of blinding smoke.
+            </p>
+
+            <p>
+                <sp>"Did you see it?"</sp> cried a 
+                <metonymy category="trope" device="stylistic" ref="man">voice</metonymy>. 
+                <sp>"Just like I told you!"</sp>
+            </p>
+
+            <p>
+                <sp>
+                    "<repetition device="rhetorical">The same! The same!</repetition> A 
+                    <periphrasis category="figure_of_speech" device="stylistic">knight in armor</periphrasis>, by the Lord Harry! We hit him!"
+                </sp>
+            </p>
+
+            <p>
+                <sp>"You goin' to stop?"</sp>
+            </p>
+
+            <p>
+                <sp>"Did once; found nothing. Don't like to stop on this moor. I get the willies. Got a feel, it has."</sp>
+            </p>
+
+            <p>
+                <sp>"But we hit something!"</sp>
+            </p>
+
+            <p>
+                <sp>"Gave him plenty of whistle; chap wouldn't budge!"</sp>
+            </p>
+
+            <p>A steaming blast cut the mist aside.</p>
+
+            <p>
+                <sp>"We'll make
+                    <geogName>
+                        <region type="town" location="Wales, UK">Stokely</region>
+                    </geogName> on time. More coal, eh,
+                    <persName type="character" who="Margot">
+                        <forename>Fred</forename>
+                    </persName>?"
+                </sp>
+            </p>
+
+            <p>Another whistle shook dew from the empty sky. The night train, in
+                <zeugma category="trope" device="stylistic">fire and fury</zeugma>, 
+                <enumeration device="stylistic" category="figure_of_speech">shot through a gully, up a rise, and vanished away
+                </enumeration> over cold earth toward the north, leaving black smoke and steam to dissolve in the numbed air minutes after 
+                <reference type="anaphoric" to="train">it</reference> had passed and gone forever.
+            </p>
+
+        </text>
+        
+    </story>
+    
+    <!-- 
+        'addInfo' refers to a non-story content provided in original PDF documents. These are Ray Bradbury's biographical data and the collection of his stories. 
+        Unlike with stylistic devices in stories, this content can be predefined as it is clearly understood that persName, for example, usually consists of such tags as persTitle, forename, surname. 
+        No ambiguous content in additional information.
+    -->
+    <addInfo type="biography" source="http://mikejmoran.typepad.com/files/pedestrian-by-bradbury-1.pdf">
+        
+        <para>
+            <persName type="author" who="Ray Bradbury">
+                <forename>Bradbury</forename>
+                <surname>Ray</surname>
+            </persName> 
+            (<birth of="Ray Bradbury">1920</birth>-
+            <death of="Ray Bradbury"/>), is an American author best known for his fantasy stories and science fiction. Bradbury's best writing effectively combines a lively 
+            imagination with a poetic style. Collections of Bradbury's stories include
+        </para>
+        
+        <list>
+            <bibl>
+                <title level="m">The Martian Chronicles</title>
+                <date>
+                    <year>1950</year>
+                </date>
+            </bibl>
+            <bibl>
+                <title level="m">The Illustrated Man</title>
+                <date>
+                    <year>1951</year>
+                </date>
+            </bibl>
+            <bibl>
+                <title level="m">The October Country</title>
+                <date>
+                    <year>1955</year>
+                </date>
+            </bibl>
+            <bibl>
+                <title level="m">I Sing the Body Electric!</title>
+                <date>
+                    <year>1969</year>
+                </date>
+            </bibl>
+            <bibl>
+                <title level="m">Quicker Than the Eye</title>
+                <date>
+                    <year>1996</year>
+                </date>
+            </bibl>
+            <bibl>
+                <title level="m">One More for the Road</title>
+                <date>
+                    <year>2002</year>
+                </date>
+            </bibl>
+        </list>
+        
+        <para>His novel
+            <bibl>
+                <title level="m">Fahrenheit 451</title>
+                (<date>
+                    <year>1953</year>
+                </date>) describes 
+                <desc of="Fahrenheit 451">a society that bans the ownership of books</desc>
+            </bibl>. His other novels include
+            <bibl>
+                <title level="m">Dandelion Wine</title>
+                (<date>
+                    <year>1957</year>
+                </date>), 
+                <desc of="Dandelion Wine">a poetic story of a boy's summer in an
+                    <geogName>
+                        <region type="state">Illinois</region>
+                        <geogFeat>town</geogFeat>
+                    </geogName> in 
+                    <date>
+                        <year>1928</year>
+                    </date>
+                </desc>
+            </bibl>; and 
+            <bibl>
+                <title level="m">Something Wicked This Way Comes</title> 
+                (<date>
+                    <year>1962</year>
+                </date>), 
+                <desc of="Something Wicked This Way Comes">a suspenseful fantasy about a black magic carnival that comes to a small
+                    <geogName>
+                        <geogFeat>Midwestern</geogFeat>
+                        <geogFeat>town</geogFeat>
+                    </geogName>
+                </desc>
+            </bibl>. He has also written poetry, screenplays, and stage plays.
+        </para>
+        
+    </addInfo>
+    
+</content>

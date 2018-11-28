@@ -1,0 +1,66 @@
+body {background-color:#85ADAD;}
+div {margin-left:10em; 
+       margin-right:10em;
+       margin-top:-10px;
+       background-color:#FFFFFF;
+       position:absolute;
+       font-family: verdana, sans-serif;}
+#home {height:100%;}
+h1 {margin-top:10px;
+       font-size:50px;
+       font-weight:lighter;
+       margin-bottom:5px;}
+h2 {font-size:30px;
+       line-height:10%;
+       font-weight:lighter;}
+h1,h2,q, h3,h4 {color: #001F7A; 
+                margin-left:10px;}
+table {border-collapse:collapse;}
+td {width:20em;
+      text-align:center;
+      font-size:13px;
+      color:#001F7A;}
+p{font-size:14px;
+    font-weight:lighter;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:justify;}
+ul{font-size:14px;
+     font-weight:lighter;}
+q{font-style:italic;
+    margin-right:10px;
+    font-size:14px;}
+.reference {font-size:10px;
+                    margin-bottom:5px;
+                    margin-top:10px;}
+a:link {text-decoration:underline;}
+a:visited {color:#001F7A;}  
+a:hover {color:#A3A3CC;}
+a:active {color:#001F7A;}
+h3 {font-size:25px;}
+h4 {font-size:15px;}
+.full {border-collapse:collapse;
+         width:auto;
+         margin-right: 13px;
+         margin-left:13px;}
+th.full {font-weight:lighter;
+           color:#001F7A;
+           height:50px;
+           text-align:center;}
+tr.full{border:1px solid;}
+td.full {color:#000000;
+            text-align:left;}
+#tropesAndFiguresList{position:fixed;
+                                           background-color:#FFFFFF;
+                                           top:0;
+                                           left:-10em;}
+.small {font-size:13px;
+              margin-left:-23px;}
+ol {font-size:14px;
+      margin-left:-10px;}
+.source {font-size: 14px;
+                color:#001F7A;
+                text-align:left;}
+.bold {font-weight:bold;}
+#module{text-align:right;
+                  font-size: 12px;}
